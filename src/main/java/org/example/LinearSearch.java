@@ -9,12 +9,15 @@ public class LinearSearch {
         int[] arr1 = {2, 5, 7, 9};
         int arr2[] = {5, 2, 3, 7, 9, 1};
         int[] arr3 = {4, 5, 1, 2, 7, 9, 3};
+        int []arr4={6,3,7,1,2,9,0,3,5,1,2};
         System.out.println(linearSearch(arr, 60));
         System.out.println(binarySearch(arr1, 5));
         bubleSort(arr2);
         System.out.println(Arrays.toString(arr2));
         selectionSort(arr3);
         System.out.println(Arrays.toString(arr3));
+        mergeSort(arr4);
+        System.out.println(Arrays.toString(arr4));
     }
 
     public static int linearSearch(int[] arr, int target) {
@@ -99,7 +102,7 @@ public class LinearSearch {
         int l=0,r=0,k=0;
         while (l<leftArray.length&& r<rightArray.length){
             if (leftArray[l]<rightArray[l]){
-                arr4[k=leftArray[l];
+                arr4[k]=leftArray[l];
                 l++;
                 k++;
             }else {
@@ -108,6 +111,20 @@ public class LinearSearch {
                 k++;
 
             }
+        while
+        (l<leftArray.length){
+            arr4[k]=leftArray.length;
+            l++;
+            k++;
+
+        }
+        while
+        (l<rightArray.length){
+            arr4[k]=rightArray.length;
+            l++;
+            k++;
+
+        }
         }
 
 
